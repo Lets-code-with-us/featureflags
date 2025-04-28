@@ -1,0 +1,16 @@
+# https://taskfile.dev
+
+version: '3'
+
+
+tasks:
+  default:
+    cmds:
+      - echo "{{.GREETING}}"
+    silent: true
+  run:
+    cmds:
+      - go run ./src/main.go
+  build:
+    cmds:
+      - go build -o ./bin/main ./src/main.go

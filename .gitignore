@@ -1,0 +1,49 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output folders (optional)
+bin/
+build/
+dist/
+
+# Go workspace stuff
+*.mod
+*.sum
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# GoLand
+*.iml
+
+# Cache
+__pycache__/
+*.log
+
+# Go build cache (if any)
+.cache/
+
+# Test binary outputs
+*.test
+
+# Dependency vendoring
+/vendor/
+
+# Air live reload config
+.air/
+
+# Coverage reports
+coverage.out
